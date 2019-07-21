@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+* {
+    letter-spacing: 1.3px;
+}
+
+.mainBody {
+    position: relative;
+    margin: 10vh;
+    width: auto;
+}
+
+.row {
+    display: flex;
+    position: relative;
+    margin: 30px;
+    padding-top: 5px;
+}
+
+.rowFoot {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+}
+
+.shadowBlue {
+    box-shadow: -5px 3px 10px #3F51B5;
+}
+
+.shadowBlack {
+    box-shadow: -5px -5px 5px rgb(0, 0, 0);
+}
+
+.row h1 {
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    background-color: #F4511E;
+    padding: 20px;
+    text-align: center;
+}
+
+.row i {
+    margin-left: .85em;
+    padding: 0.5em;
+}
+
+.row h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 3em;
+    margin: 1.7em;
+}
+
+.row h3 span hr {
+    position: relative;
+    left: 50%;
+    border-color: #3F51B5;
+    width: 50%;
+    height: 5px;
+    background: #3F51B5;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-family: "Monstserrat", sans-serif;
+}
+
+.col50 {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.col50 span {
+    color: #D50000;
+    font-weight: bold;
+}
+
+.col50 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    position: relative;
+}
+
+.col50 p:nth-child(2) {
+    font-size: 18px;
+}
+
+.center a {
+    position: relative;
+    left: 40%;
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    transition: ease-in-out 0.2s;
+}
+
+.buttonColorSchemeBlue {
+    border: #3F51B5 inset;
+    color: white;
+}
+
+.buttonColorSchemeRed {
+    border: #D50000 inset;
+    color: white;
+}
+
+.buttonColorSchemeBlue:hover {
+    border: rgb(5, 5, 5) solid;
+    background: #3F51B5;
+    color: white;
+}
+
+.buttonColorSchemeRed:hover {
+    border: rgb(5, 5, 5) solid;
+    background-color: #D50000;
+    color: white;
+}
+
+.center {
+    width: 100%;
+}
+
+.colTxtR {
+    position: relative;
+    padding-left: 10%;
+}
+
+.colTxtL {
+    position: relative;
+    padding-left: 10%;
+}
+
+#html {
+    position: relative;
+    left: 35%;
+    color: #fa6028;
+}
+
+#java {
+    color: #D50000;
+}
+
+#android {
+    color: rgb(35, 161, 35);
+}
+
+#css {
+    color: #3F51B5;
+}
+
+#js {
+    color: rgb(216, 182, 29);
+}
+
+#swift {
+    color: #e03c00;
+}
+
+#realization {
+    font-size: 1.5em;
+}
+
+#realization span {
+    font-size: 1.6em;
+    color: #3F51B5;
+}
+
+.copyrightClaim,
+.copyrightClaim a {
+    font-family: "DM Sans", sans-serif;
+    color: #3F51B5;
+    text-decoration: none;
+    font-size: 13px;
+}

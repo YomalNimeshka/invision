@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+.row {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    transition: ease 0.3s;
+    border: #fff solid;
+}
+
+.row a {
+    color: #F4511E;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.row a p {
+    color: #3F51B5;
+}
+
+.row:hover {
+    border-radius: 50px;
+}
+
+.intro {
+    color: #fff;
+    font-size: 18px;
+}
+
+.noHighlight {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    border: #fff none;
+}
+
+.noHighlight:hover {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+hr {
+    position: relative;
+    left: 3em;
+    padding: 5px;
+    border: none;
+    width: 10%;
+    background-color: #3F51B5;
+}

@@ -1,0 +1,155 @@
+/* Feedback form page */
+
+.formHead {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+.ratingStars {
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    font-size: 80px;
+    cursor: pointer;
+    margin: 5px;
+    color: #fff;
+    user-select: none;
+    transition: ease-in 0.1s;
+}
+
+.stars:hover {
+    color: #FFFF00;
+}
+
+label {
+    margin-top: 1.2em;
+    user-select: none;
+}
+
+#name {
+    margin-top: 1.2em;
+    padding: 0.9em;
+    width: 50%;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    border: #F4511E solid;
+    outline: none;
+    transition: ease 0.3s;
+}
+
+#email {
+    margin-top: 1.2em;
+    padding: 0.9em;
+    width: 50%;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    border: #F4511E solid;
+    outline: none;
+    transition: ease 0.3s;
+}
+
+#name:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+#email:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+#feedbackForm {
+    text-align: center;
+}
+
+#feedbackBox {
+    width: 50%;
+    font-family: "DM Sans", sans-serif;
+    padding: 5px;
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 5);
+    border: solid #F4511E;
+    outline: none;
+    color: #fff;
+    resize: none;
+}
+
+#feedbackBox::selection {
+    background: #FF0000;
+    color: #000;
+}
+
+#feedbackSubmit {
+    position: relative;
+    left: 12%;
+    margin-top: 1.2em;
+    width: 15%;
+    border: solid #F4511E;
+    background-color: transparent;
+    padding: 20px;
+    transition: ease 0.2s;
+    color: #fff;
+    outline: none;
+}
+
+#feedbackSubmit:hover {
+    box-shadow: 0 0 10px rgb(0, 140, 255);
+    border-color: rgb(0, 140, 255);
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 2px 5px 5px rgb(255, 255, 255);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    border-radius: 50px;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: ease 0.2;
+    user-select: none;
+}
+
+.close:hover,
+.close:focus {
+    color: #F4511E;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.noticelabels {
+    font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /*background-image: url("http://www.ie-wallpapers.com/data/out/30/36724016-black-abstract-wallpaper.jpg");*/
+    background-color: rgb(5, 5, 5);
+    color: white;
+    caret-color: #F4511E;
+}
+
+::selection {
+    background: #F4511E;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    user-select: none;
+}
+
+.header .logo a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    transition: ease-in-out 0.180s;
+}
+
+.header a {
+    color: #fa6028;
+}
+
+.nav {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.nav a {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #fa6028;
+    border: none;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+}
+
+.nav a:nth-child(1):hover {
+    color: #fa6028;
+    box-shadow: 0 2px 5px #fa6028;
+    background-color: rgb(20, 20, 20);
+}
+
+.nav a:nth-child(2):hover {
+    color: #3F51B5;
+    box-shadow: 0 2px 5px #3F51B5;
+    background-color: rgb(20, 20, 20);
+}
+
+.nav a:nth-child(3):hover {
+    color: rgb(243, 198, 0);
+    box-shadow: 0 2px 5px rgb(243, 198, 0);
+    background-color: rgb(20, 20, 20);
+}
+
+.nav a:nth-child(4):hover {
+    color: rgb(7, 211, 58);
+    box-shadow: 0 2px 5px rgb(7, 211, 58);
+    background-color: rgb(20, 20, 20);
+}
+
+.nav .Login:hover {
+    box-shadow: none;
+    /* background-color: #F4511E; */
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    border: none;
+}
+
+.header a::selection {
+    background: none;
+    cursor: not-allowed;
+}
+
+.rowFoot {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.footSect {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 1.8em;
+}
+
+.footSect h4 {
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.footSect a {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: ease 0.3s;
+}
+
+.footSect a:hover {
+    color: #3F51B5;
+}
+
+#footerSpan hr {
+    margin-top: 10px;
+    width: 50%;
+    border: #3F51B5 solid;
+}
+
+#feedbackbtn {
+    position: relative;
+    left: 0.7em;
+    padding: 10px;
+    color: white;
+    border: solid #3F51B5;
+    user-select: none;
+    cursor: pointer;
+}
+
+#feedbackbtn:hover {
+    background: #3F51B5;
+}
+
+#fb,
+#ig,
+#git {
+    transition: ease 0.3s;
+    border-radius: 50%;
+}
+
+#fb:hover {
+    color: #3F51B5;
+}
+
+#ig:hover {
+    color: rgb(245, 79, 209);
+}
+
+#git:hover {
+    color: rgb(119, 19, 97);
+    background: #fff;
+}
+
+
+/* Scroll Bar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: transparent;
+    background-color: rgba(255, 60, 0, 0.445);
+    transition: ease 0.3s;
+    border-radius: 20%;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #F4511E;
+}
